@@ -3,5 +3,4 @@ before_script:
   - npm install gulp
 env:
   - TEST_DIR=code/client
-script: cd $TEST_DIR && npm install && npm test
-script: gulp
+script: cd $TEST_DIR && npm install && gulp
