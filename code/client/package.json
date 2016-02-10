@@ -43,6 +43,7 @@
   "dependencies": {
     "babel": "^6.5.1",
     "babel-register": "^6.5.1",
+    "bower": "^1.7.7",
     "express": "^4.13.4"
   }
 }
