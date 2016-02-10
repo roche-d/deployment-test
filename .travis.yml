@@ -5,5 +5,5 @@ env:
 before_install:
   - cd $TEST_DIR
 before_script:
-  - npm install gulp
+  - npm install gulp && npm install && bower install
 script: gulp
