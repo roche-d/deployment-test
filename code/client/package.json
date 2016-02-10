@@ -41,6 +41,8 @@
     }
   },
   "dependencies": {
+    "babel": "^6.5.1",
+    "babel-register": "^6.5.1",
     "express": "^4.13.4"
   }
 }
