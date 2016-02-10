@@ -2,6 +2,8 @@ language: node_js
   - "4.1"
 env:
   - TEST_DIR=code/client
+install:
+  - npm install -g npm@2
 before_install:
   - cd $TEST_DIR
 before_script:
