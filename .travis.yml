@@ -2,6 +2,8 @@ language: node_js
   - "4.1"
 env:
   - TEST_DIR=code/client
+before_install:
+  - cd $TEST_DIR
 before_script:
   - npm install -g gulp
-script: cd $TEST_DIR && gulp
+script: gulp
