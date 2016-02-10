@@ -1,0 +1,12 @@
+/**
+ * Created by roche_d on 09/02/16.
+ */
+
+var express = require('express');
+var app = express();
+
+app.use(express.static('dist'));
+
+app.listen(3000, function () {
+  console.log('Example app listening on port 3000!');
+});
